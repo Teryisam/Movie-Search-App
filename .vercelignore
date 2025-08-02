@@ -1,0 +1,12 @@
+# ignore local/dev artifacts
+node_modules/
+*.log
+.DS_Store
+.env.local
+.env.*.local
+coverage/
+src/**/*.tsbuildinfo
+
+# avoid ambiguity with other package managers
+yarn.lock
+.pnp.*
