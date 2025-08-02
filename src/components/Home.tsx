@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 const Home = ({ initialSearch }: { initialSearch?: string }) => {
   const [query, setQuery] = useState(initialSearch || "");
 
-  const handleStart = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!query.trim()) return;
-    // push to /search with the query via link or programmatic navigation
-    window.location.href = `/search?query=${encodeURIComponent(query)}`;
-  };
+  // const handleStart = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   if (!query.trim()) return;
+  //   // push to /search with the query via link or programmatic navigation
+  //   window.location.href = `/search?query=${encodeURIComponent(query)}`;
+  // };
 
   return (
     <>
