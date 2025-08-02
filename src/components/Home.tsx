@@ -24,7 +24,7 @@ const Home = ({ initialSearch }: { initialSearch?: string }) => {
               <p className="lead mb-4">
                 Search, discover and view detailed information about movies in a
                 fast, API-driven interface. Fully deployed (frontend on Vercel,
-                backed by live data) — built with React, Next.js, and real-world
+                backed by live data) — built with React, Typescript, and real-world
                 production intent.
               </p>
               {/* <form
